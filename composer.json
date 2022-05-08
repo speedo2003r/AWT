@@ -1,5 +1,5 @@
 {
-  "name": "mkhdev/awt",
+  "name": "khrdev/awt",
   "description": "Awesome Translation For Laravel",
   "authors": [
     {
@@ -27,13 +27,13 @@
   },
   "autoload": {
     "psr-4": {
-      "mkhdev\\AWT\\": "src/"
+      "khrdev\\AWT\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "mkhdev\\AWT\\AWTServiceProvider"
+        "khrdev\\AWT\\AWTServiceProvider"
       ],
       "aliases": {
       }

@@ -15,19 +15,19 @@ Laravel Awesome Translation Helper using Google Translation
 Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.
 
 ```bash
-$ composer require mkhdev/awt
+$ composer require khrdev/awt
 ```
 
 Add the service provider to `config/app.php` in the `providers` array, or if you're using Laravel 5.5, this can be done via the automatic package discovery.
 
 ```php
-mkhdev\AWT\AWTServiceProvider::class,
+khrdev\AWT\AWTServiceProvider::class,
 ```
 
 #### ★ New Config File
 Publish package config file "awt.php" to access new customize features
 ```php
-php artisan vendor:publish --provider=mkhdev\AWT\AWTServiceProvider
+php artisan vendor:publish --provider=khrdev\AWT\AWTServiceProvider
 ```
 - This file allow you to Enable/Disable Google Translator
 - Enable/Disable application current locale for translator 
