@@ -1,5 +1,5 @@
 <?php
-namespace mkhdev\AWT;
+namespace khrdev\awt;
 use Illuminate\Support\Facades\Blade;
 
 class AWTClass

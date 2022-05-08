@@ -33,7 +33,7 @@ if (!function_exists('awtTrans')) {
         }
 
         try{
-            $langFile = \mkhdev\AWT\AWTClass::openAwtLangFile($AwtFile, $locale);
+            $langFile = \khrdev\awt\AWTClass::openAwtLangFile($AwtFile, $locale);
             if ($langFile) {
                 if(config('awt.allow_google_translate'))
                 {
@@ -45,7 +45,7 @@ if (!function_exists('awtTrans')) {
                     $translatedWord=$word;
                 }
 
-                \mkhdev\AWT\AWTClass::pushWord($word, $translatedWord, $AwtFile);
+                \khrdev\awt\AWTClass::pushWord($word, $translatedWord, $AwtFile);
                 return $translatedWord;
             }
 
