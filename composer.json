@@ -1,43 +1,15 @@
 {
-  "name": "khrdev/awt",
-  "description": "Awesome Translation For Laravel",
-  "authors": [
-    {
-      "name": "khaledReda",
-      "email": "speedo2003r@gmail.com"
+    "name": "khr/awt",
+    "description": "Awesome Translation For Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "khaled reda",
+            "email": "speedo2003r@gmail.com"
+        }
+    ],
+    "require": {
+        "stichoza/google-translate-php": "^4.1"
     }
-  ],
-  "keywords": [
-    "laravel",
-    "translate",
-    "localization",
-    "translation",
-    "language",
-    "laravel localization",
-    "localization",
-    "laravel multi language",
-    "multi language",
-    "multilingual",
-    "multilingual support",
-    "laravel lang"
-  ],
-  "license": "MIT",
-  "require": {
-    "stichoza/google-translate-php": "^4.1"
-  },
-  "autoload": {
-    "psr-4": {
-      "khrdev\\AWT\\": "src/"
-    }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "khrdev\\AWT\\AWTServiceProvider"
-      ],
-      "aliases": {
-      }
-    }
-  },
-  "minimum-stability": "stable"
 }
