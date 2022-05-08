@@ -1,5 +1,5 @@
 {
-    "name": "khr/awt",
+    "name": "khrdev/awt",
     "description": "Awesome Translation For Laravel",
     "type": "library",
     "license": "MIT",
@@ -28,13 +28,13 @@
     },
     "autoload": {
         "psr-4": {
-            "khr\\AWT\\": "src/"
+            "khrdev\\AWT\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "khr\\AWT\\AWTServiceProvider"
+                "khrdev\\AWT\\AWTServiceProvider"
             ],
             "aliases": {
             }
