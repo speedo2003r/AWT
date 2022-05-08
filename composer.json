@@ -28,13 +28,13 @@
     },
     "autoload": {
         "psr-4": {
-            "khrdev\\AWT\\": "src/"
+            "khrdev\\awt\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "khrdev\\AWT\\AWTServiceProvider"
+                "khrdev\\awt\\AWTServiceProvider"
             ],
             "aliases": {
             }
