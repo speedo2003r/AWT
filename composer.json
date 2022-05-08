@@ -9,7 +9,35 @@
             "email": "speedo2003r@gmail.com"
         }
     ],
+     "keywords": [
+        "laravel",
+        "translate",
+        "localization",
+        "translation",
+        "language",
+        "laravel localization",
+        "localization",
+        "laravel multi language",
+        "multi language",
+        "multilingual",
+        "multilingual support",
+        "laravel lang"
+    ],
     "require": {
         "stichoza/google-translate-php": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "khr\\AWT\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "khr\\AWT\\AWTServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
     }
 }
