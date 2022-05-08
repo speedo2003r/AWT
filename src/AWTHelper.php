@@ -37,7 +37,7 @@ if (!function_exists('awtTrans')) {
             if ($langFile) {
                 if(config('awt.allow_google_translate'))
                 {
-                    $translateClient = new \Stichoza\GoogleTranslate\TranslateClient();
+                    $translateClient = new \Stichoza\GoogleTranslate\GoogleTranslate();
                     $translatedWord = $translateClient->setSource(null)->setTarget($locale)->translate($word);
 
                 }else

@@ -3,8 +3,8 @@
   "description": "Awesome Translation For Laravel",
   "authors": [
     {
-      "name": "MustafaKhaled",
-      "email": "MustafaKhaled.dev@gmail.com"
+      "name": "khaledReda",
+      "email": "speedo2003r@gmail.com"
     }
   ],
   "keywords": [
@@ -23,7 +23,7 @@
   ],
   "license": "MIT",
   "require": {
-    "stichoza/google-translate-php": "^3.2"
+    "stichoza/google-translate-php": "^4.1"
   },
   "autoload": {
     "psr-4": {
