@@ -43,8 +43,8 @@ class AWTClass
      */
     public static function createAwtLangFile($AwtFile, $locale)
     {
-        if (!file_exists(resource_path('lang/' . $locale))) {
-            mkdir(resource_path('lang/' . $locale), 0777, true);
+        if (!file_exists(base_path().'/lang/'. $locale)) {
+            mkdir(base_path().'/lang/'. $locale, 0777, true);
         }
         $file = copy(__DIR__ . '/stubs/blank.stub', $AwtFile);
         return $file;
