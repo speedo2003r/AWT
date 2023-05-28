@@ -25,7 +25,7 @@ if (!function_exists('awtTrans')) {
         }
 
 
-        $AwtFile = resource_path('lang/' . $locale . '/awt.php');
+        $AwtFile = base_path().'/lang/'. $locale . '/awt.php';
         if (file_exists($AwtFile)) {
             if (Lang::get('awt.' . $word,[],$locale,false)!='awt.' . $word) {
                 return trans('awt.' . $word);
