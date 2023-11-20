@@ -24,8 +24,8 @@
         "laravel lang"
     ],
     "require": {
-        "stichoza/google-translate-php": "^4.1",
-        "laravel/framework": "^9.0"
+        "stichoza/google-translate-php": "^5.1.2",
+        "laravel/framework": "^10.0"
     },
     "autoload": {
         "psr-4": {
